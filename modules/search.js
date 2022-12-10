@@ -25,7 +25,7 @@ async function searchhandler(req,res) {
     })
 
     
-    res.send(imageSummary);
+    res.status(200).send(imageSummary);
 }
 
 //localhost:3000/searchimage?title=office
